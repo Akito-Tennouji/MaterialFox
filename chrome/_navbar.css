@@ -69,7 +69,7 @@
 #searchbar
 {
 	border-radius: 99px !important;
-	background-color: var(--toolbar-field-background-color) !important;
+	background-color: #f1f3f4 !important;
 	color: inherit !important;
 	border: 0 !important;
 	box-shadow: none !important;
@@ -80,19 +80,37 @@
 	transition: background-color .1s var(--ease-basic) !important;
 }
 
+#urlbar:-moz-lwtheme-brighttext,
+#searchbar:-moz-lwtheme-brighttext
+{
+	background-color: #3d4043 !important;
+}
+
 #urlbar:hover,
 #searchbar:hover
 {
-	background-color: var(--toolbar-field-hover-background-color) !important;
+	background-color: #e8eaed !important;
+}
+
+#urlbar:hover:-moz-lwtheme-brighttext,
+#searchbar:hover:-moz-lwtheme-brighttext
+{
+	background-color: #303336 !important;
 }
 
 #urlbar[focused],
 #searchbar[focused]
 {
-	background-color: var(--toolbar-field-focus-background-color) !important;
+	background-color: #fff !important;
 	border: 2px solid var(--toolbar-field-focus-border-color) !important;
 	padding: 1px !important;
 	margin: 0 !important;
+}
+
+#urlbar[focused]:-moz-lwtheme-brighttext,
+#searchbar[focused]:-moz-lwtheme-brighttext
+{
+	background-color: #3d4043 !important;
 }
 
 #identity-box

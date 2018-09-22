@@ -3,10 +3,11 @@
 	-moz-box-align: center !important;
 }
 
-#navigator-toolbox > toolbar:not(#TabsToolbar)
+/* #navigator-toolbox > toolbar:not(#TabsToolbar)
 {
 	color: var(--toolbar-color) !important;
 }
+ */
 
 #navigator-toolbox :-moz-any(.toolbarbutton-1, .bookmark-item:not(.subviewbutton), .scrollbutton-up, .scrollbutton-down)
 {

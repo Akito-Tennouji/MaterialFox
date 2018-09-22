@@ -27,7 +27,7 @@
    so we will force lwt vars */
 :root
 {
-	--toolbar-color: #606367 !important;
+/* 	--toolbar-color: #606367 !important;
 	--toolbar-bgcolor: var(--chrome-secondary-background-color) !important;
 	
 	--chrome-color: hsl(210, 5%, 63%) !important;
@@ -45,14 +45,14 @@
 	--lwt-toolbar-field-hover-background-color: #e8eaed !important;
 	--lwt-toolbar-field-focus-background-color: #fff !important;
 	
-	--lwt-tab-text: #3d4043 !important;
+	--lwt-tab-text: #3d4043 !important; */
 	
 	--tab-hover-fill-opacity: .1 !important;
 	--tab-separator-opacity: .35 !important;
 }
 
 /* force darktext style buttons for selected tab */
-.tabbrowser-tab[visuallyselected],
+/* .tabbrowser-tab[visuallyselected],
 :root
 {
 	--toolbarbutton-hover-background: var(--lwt-toolbarbutton-hover-background, red) !important;
@@ -60,12 +60,12 @@
 	
 	--lwt-toolbarbutton-hover-background: hsla(0, 0%, 40%, .12) !important;
 	--lwt-toolbarbutton-active-background: hsla(0, 0%, 40%, .24) !important;
-}
+} */
 
 /* light themes */
 :root:-moz-lwtheme-darktext
 {
-	--chrome-color: var(--toolbar-color) !important;
+/* 	--chrome-color: var(--toolbar-color) !important; */
 	--tab-hover-fill-opacity: .45 !important;
 	--tab-separator-opacity: .48 !important;
 }
@@ -74,7 +74,7 @@
 #main-window[privatebrowsingmode],
 :root:-moz-lwtheme-brighttext
 {
-	--lwt-toolbar-field-background-color: #292c2f !important;
+/* 	--lwt-toolbar-field-background-color: #292c2f !important;
 	--lwt-toolbar-field-hover-background-color: #303336 !important;
 	--lwt-toolbar-field-focus-background-color: #3d4043 !important;
 	
@@ -84,16 +84,16 @@
 	--toolbar-color: hsl(180, 4%, 95%) !important;
 	--chrome-background-color: #202124 !important;
 	--chrome-secondary-background-color: #333639 !important;
-	--toolbox-border-bottom-color: hsl(0, 0%, 16%) !important;
+	--toolbox-border-bottom-color: hsl(0, 0%, 16%) !important; */
 	
 	--tab-hover-fill-opacity: .5 !important;
 }
 
 /* dark tab bar and menubar */
-:root:not(:-moz-lwtheme-darktext) toolbar:not(#nav-bar),
+/* :root:not(:-moz-lwtheme-darktext) toolbar:not(#nav-bar),
 #main-window[privatebrowsingmode],
 :root:-moz-lwtheme-brighttext
 {
 	--lwt-toolbarbutton-hover-background: hsla(0, 0%, 96%, .12) !important;
 	--lwt-toolbarbutton-active-background: hsla(0, 0%, 96%, .24) !important;
-}
+} */
