@@ -6,6 +6,9 @@
 
 	--button-size: 32px; /* is this used? */
 	--icon-size: 24px; /* is this used? */
+	
+	--toolbar-non-lwt-bgcolor: #FFF !important;
+	--toolbar-non-lwt-textcolor: #606368 !important;
 }
 
 #titlebar,
