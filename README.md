@@ -18,10 +18,8 @@ Some steps involve accessing the about:config page. You can get there by typing 
 3. Restart Firefox.
 
 ### Optional steps
-Replicate Chrome's light color scheme:
-* Right click on toolbar -> Customize.
-* Click Themes.
-* Select Light theme.
+Replicate Chrome's color schemes:
+* Install the [MaterialFox Helper add-on](https://addons.mozilla.org/en-US/firefox/addon/materialfox-helper/).
 
 Add space above tab bar:
 * Right click on toolbar -> Customize.
@@ -42,4 +40,4 @@ Remove pocket button from Address Bar:
 
 ## Please note
 * Linux is not frequently tested; last tested on 07/09/2018.
-* Some customisation settings may no longer work (compact density, some custom themes).
+* Some customisation settings may no longer work (such as compact density).
